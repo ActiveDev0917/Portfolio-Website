@@ -1,0 +1,646 @@
+<html lang="en" class="crt crt-nav-on crt-nav-type1 crt-main-nav-on crt-sidebar-on crt-layers-2 mobile crt-mobile" style="overflow: visible;"><head><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen"></style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+    background-color: var(--darkreader-inline-bgcolor) !important;
+  }
+  [data-darkreader-inline-bgimage] {
+    background-image: var(--darkreader-inline-bgimage) !important;
+  }
+  [data-darkreader-inline-border] {
+    border-color: var(--darkreader-inline-border) !important;
+  }
+  [data-darkreader-inline-border-bottom] {
+    border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+  }
+  [data-darkreader-inline-border-left] {
+    border-left-color: var(--darkreader-inline-border-left) !important;
+  }
+  [data-darkreader-inline-border-right] {
+    border-right-color: var(--darkreader-inline-border-right) !important;
+  }
+  [data-darkreader-inline-border-top] {
+    border-top-color: var(--darkreader-inline-border-top) !important;
+  }
+  [data-darkreader-inline-boxshadow] {
+    box-shadow: var(--darkreader-inline-boxshadow) !important;
+  }
+  [data-darkreader-inline-color] {
+    color: var(--darkreader-inline-color) !important;
+  }
+  [data-darkreader-inline-fill] {
+    fill: var(--darkreader-inline-fill) !important;
+  }
+  [data-darkreader-inline-stroke] {
+    stroke: var(--darkreader-inline-stroke) !important;
+  }
+  [data-darkreader-inline-outline] {
+    outline-color: var(--darkreader-inline-outline) !important;
+  }
+  [data-darkreader-inline-stopcolor] {
+    stop-color: var(--darkreader-inline-stopcolor) !important;
+  }</style><style class="darkreader darkreader--variables" media="screen">:root {
+     --darkreader-neutral-background: #212222;
+     --darkreader-neutral-text: #eae3d9;
+     --darkreader-selection-background: #165aaa;
+     --darkreader-selection-text: #fbf5ec;
+  }</style><style class="darkreader darkreader--root-vars" media="screen"></style>
+      <base href="https://blacksudo.com/">
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+          <title>Blacksudo ~ flag{nothing_here!!_try_to_look_deeper}</title>
+          <meta name="description" content="">
+  
+          <link rel="apple-touch-icon" href="apple-touch-icon.png">
+          <link rel="shortcut icon" href="favicon.ico">
+  
+          <!-- Google Fonts -->
+          <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+          
+          <!-- Icon Fonts -->
+          <link href="assets/fonts/icomoon/style.css" rel="stylesheet">
+  
+          <!-- Styles -->
+          <link href="assets/css/plugins.min.css" rel="stylesheet">
+          <link href="assets/css/style.min.css" rel="stylesheet">
+          <link rel="stylesheet" href="assets/css/style.css">
+          <!-- Modernizer -->
+          <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-GM1NJQZLTK&amp;cx=c&amp;_slc=1"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="assets/js/vendor/modernizr-3.3.1.min.js"></script><style>@font-face {
+        font-family: 'monica-ext-font_YIBBBFG';
+        src: url('chrome-extension://ofpnmcalabcbjgholdjcjblkibolbppb/static//fonts/Satoshi-Variable.ttf');
+        font-display: swap;
+      }</style>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+          <!-- Google Analytics -->
+          <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  
+          ga('create', 'UA-92973565-1', 'auto');
+          ga('send', 'pageview');
+          </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script><style class="darkreader darkreader--override" media="screen"></style><style id="mttstyle">
+      .tippy-box[data-theme~="custom"] {
+        font-size: 14px  !important;
+        max-width: 200px  !important;
+        text-align: center !important;
+        backdrop-filter: blur(4px) !important;
+        background-color: #000000b8 !important;
+        color: #ffffffff !important;
+        overflow-wrap: break-word !important;
+      }
+      .tippy-box[data-theme~='custom'][data-placement^='top'] > .tippy-arrow::before {
+        border-top-color: #000000b8 !important;
+      }
+      .tippy-box[data-theme~='custom'][data-placement^='bottom'] > .tippy-arrow::before {
+        border-bottom-color: #000000b8 !important;
+      }
+      .tippy-box[data-theme~='custom'][data-placement^='left'] > .tippy-arrow::before {
+        border-left-color: #000000b8 !important;
+      }
+      .tippy-box[data-theme~='custom'][data-placement^='right'] > .tippy-arrow::before {
+        border-right-color: #000000b8 !important;
+      }
+      .ocr_text_div{
+        position: absolute;
+        opacity: 0.7;
+        font-size: calc(100% + 1cqw);
+        overflow: hidden;
+        border: 2px solid CornflowerBlue;
+        color: transparent !important;
+        background: none !important;
+      }
+      </style><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/3/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/3/util.js"></script></head>
+      <body class="" monica-version="4.0.2" monica-id="ofpnmcalabcbjgholdjcjblkibolbppb" style="margin-right: 0px; margin-bottom: 0px;">
+          <div class="crt-wrapper">
+              <header id="crt-header">
+                  <div class="crt-head-inner crt-container">
+                      <div class="crt-container-sm">
+                          <div class="crt-head-row">
+                              <div id="crt-head-col1" class="crt-head-col text-left">
+                                  <a id="crt-logo" class="crt-logo" href="/">
+                                      <img src="assets/images/uploads/brand/logo.png" alt="BlackSudo resume"><span style="font-weight: 700;left:0px;">.BlackSudo</span>
+                                  </a>
+                              </div>
+                              <div id="crt-head-col2" class="crt-head-col text-right">
+                                  <div class="crt-nav-container crt-container hidden-sm hidden-xs">
+                                      <nav id="crt-main-nav">
+                                          <ul class="clear-list">
+                                              <li><a href="/">Home</a></li>
+                                              <li><a href="experience">Experience</a></li>
+                                              <li class="has-sub-menu"><a href="portfolio">Portfolio</a>
+                                                  <ul class="sub-menu">
+                                                      <li><a href="portfolio">Research's</a></li>
+                                                      <li><a href="portfolio">Tool's</a></li>
+                                                      <li><a href="portfolio">Project's</a></li>
+                                                  </ul>
+                                              </li>
+                                              <li><a href="blog">Blog</a></li>
+                                              <li><code><a href="contact">Donate</a></code></li>
+                                          </ul>                                 
+                                      </nav>
+                                  </div>
+                              </div>
+                              <div id="crt-head-col3" class="crt-head-col text-right">
+                                  <button id="crt-sidebar-btn" class="btn btn-icon btn-shade">
+                                      <span class="crt-icon crt-icon-side-bar-icon"></span>
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- .crt-head-inner -->
+                  </div>
+  
+                  <nav id="crt-nav-sm" class="crt-nav hidden-lg hidden-md">
+                      <ul class="clear-list">
+                          <li>
+                              <a href="/" data-tooltip="Home"><img class="avatar avatar-42" src="assets/images/uploads/avatar/avatar-42x42.png" srcset="assets/images/uploads/avatar/avatar-84x84-2x.png 2x" alt=""></a>
+                          </li>
+                          <li>
+                              <a href="experience" data-tooltip="Experience"><span class="crt-icon crt-icon-experience"></span></a>
+                          </li>
+                          <li>
+                              <a href="portfolio" data-tooltip="Portfolio"><span class="crt-icon crt-icon-portfolio"></span></a>
+                          </li>
+                          <!-- <li>
+                              <a href="testimonials" data-tooltip="References"><span class="crt-icon crt-icon-references"></span></a>
+                          </li> -->
+                          <li>
+                              <a href="contact" data-tooltip="Contact"><span class="crt-icon crt-icon-contact"></span></a>
+                          </li>
+                          <li>
+                              <a href="blog" data-tooltip="Blog"><span class="crt-icon crt-icon-blog"></span></a>
+                          </li>
+                          <li>
+                              <a href="cv" data-tooltip="Download Cv"><span class="crt-icon crt-icon-cloud-download"></span></a>
+                          </li>
+                      </ul>
+                  </nav><!-- #crt-nav-sm -->
+              </header><!-- #crt-header -->
+          <div id="crt-container" class="crt-container">
+              <div id="crt-nav-wrap" class="hidden-sm hidden-xs">
+                  <div id="crt-nav-inner">
+                      <div class="crt-nav-cont">
+                          <div id="crt-nav-scroll">
+                              <nav id="crt-nav" class="crt-nav">
+                                  <ul class="clear-list">
+                                      <li>
+                                          <a href="/" data-tooltip="Home"><img class="avatar avatar-42" src="assets/images/uploads/avatar/avatar-42x42.png" srcset="assets/images/uploads/avatar/avatar-84x84-2x.png 2x" alt=""></a>
+                                      </li>
+                                      <li>
+                                          <a href="experience" data-tooltip="Experience"><span class="crt-icon crt-icon-experience"></span></a>
+                                      </li>
+                                      <li>
+                                          <a href="portfolio" data-tooltip="Portfolio"><span class="crt-icon crt-icon-portfolio"></span></a>
+                                      </li>
+                                      <!-- <li>
+                                          <a href="testimonials" data-tooltip="References"><span class="crt-icon crt-icon-references"></span></a>
+                                      </li> -->
+                                      <li>
+                                          <a href="contact" data-tooltip="Contact"><span class="crt-icon crt-icon-contact"></span></a>
+                                      </li>
+                                      <li>
+                                          <a href="blog" data-tooltip="Blog"><span class="crt-icon crt-icon-blog"></span></a>
+                                      </li>
+                                      <li>
+                                          <a href="cv" data-tooltip="Download Cv"><span class="crt-icon crt-icon-cloud-download"></span></a>
+                                      </li>
+                                  </ul>
+                              </nav>
+                          </div>
+                          <div id="crt-nav-tools" class="hidden">
+                              <span class="crt-icon crt-icon-dots-three-horizontal"></span>
+  
+                              <button id="crt-nav-arrow" class="clear-btn">
+                                  <span class="crt-icon crt-icon-chevron-thin-down"></span>
+                              </button>
+                          </div>
+                      </div>
+                      <div class="crt-nav-btm"></div>
+                  </div>
+              </div><!-- .crt-nav-wrap -->            <div class="crt-container-sm"> 
+                  <div class="window-container is-visible">
+                      <div class="window-controls">
+                          <button class="window-controls-btn close-btn"></button>
+                          <button class="window-controls-btn minimize-btn"></button>
+                          <button class="window-controls-btn expand-btn"></button>
+                          <div class="window-header-title">whoami@blacksudo: ~ (About Me)</div>
+                      </div>
+                      
+                      <div class="window-content clear-mrg text-box"><p style="margin-bottom: 0;"><strong id="red">[root</strong><strong id="yellow">@</strong><strong id="blue">BlackSudo</strong><strong id="red">]─[</strong><strong id="yellow">~</strong><strong id="red">]</strong> whoami</p><div id="terminal"> <p style="margin: 0;">~ <strong>Hi, I'm Omer A. Bilal.</strong><br>~ Experienced with a demonstrated history of working in <strong id="red">Application</strong> security.<br>~ My expertise is in computer Security in <strong>general</strong>, and Application Security in <strong>specific</strong>.<br>~ Skilled in <strong id="blue">PHP</strong>, Linux System Administration, Forensics, Databases and more.<br>~ Doing <strong>Web/Mobile</strong> application pentesting and send POC's reports for external company.<br>~ I participated in a lot of Cyber Security <strong id="red">CTF</strong> competitions a round the world.<br>~ I have been able to find interesting &amp; unique <strong id="blue">Bugs/Attacks</strong> methodologies.<br>~ I have Strong professional entrepreneurship.<br>~ I personally loveing exploiting and <strong id="red">Rooting</strong> machines :"D.<br>~ <strong>for i in range(0,24):</strong> <br>~ ~ <strong id="blue">eat()</strong><br>~ ~ <strong id="blue">sleep()</strong><br>~ ~ <strong id="red">pwn()</strong> <br>~ ~ <strong id="blue">Repeat()</strong><br>~ Bye. ✨</p>~<strong id="red"> #</strong>|</div></div>
+                  </div>   
+                  <div class="crt-paper-layers">
+                      <div class="crt-paper clear-mrg">
+                          <section class="section brd-btm padd-box">
+                              <div class="row">
+                                  
+                                  <div class="col-sm-12 clear-mrg text-box">
+                                      <div class="row">
+                                          <div class="col-sm-8 mt-4">
+                                              <div class="crt-share-box clearfix">
+                                                  <button id="btn-share" class="btn btn-share btn-upper"><span class="crt-icon crt-icon-share-alt"></span>Share
+                                                  </button>
+                                                  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5821a6c28931dc81"></script>
+                                                  <div class="addthis_inline_share_toolbox"></div>
+                                              </div>
+                                              <!-- .crt-share -->
+                                          </div>
+                                          <div class="col-sm-3 text-right">
+                                              <script src="https://www.hackthebox.eu/badge/16180"></script><div style="width: 220px; height:50px; background-color: #343c41; border-radius:4px; text-align: left; background-image: url(https://www.hackthebox.com/images/icon20.png); background-position: right 5px bottom 5px; background-repeat: no-repeat;"><style scoped="">@font-face {font-family: "Roboto";font-style: normal;font-weight: 400;src: url(https://fonts.gstatic.com/s/ubuntumono/v6/ViZhet7Ak-LRXZMXzuAfkY4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2");}.htb_font {font-family: "Roboto", monospace;}.htb_nickname {color: #ffffff;font-size: 12px;font-weight: bold;}.htb_points {color: #56C0E0;font-size: 10px;}.htb_respect {color: #f7af3e;font-size: 10px;}.htb_ranking {color: #ffffff;font-size: 10px;}.htb_line {line-height: 12px;margin: 0px;padding: 0px;}.htb_link {color: #9acc14;font-size:0.6em;text-decoration: none;}.htb_link:hover {color: #9acc14;font-size:0.6em;text-decoration: underline;}.htb_link:visited {color: #9acc14;}.htb_rank{color: #ffffff;font-size: 11px;}.htb_row1{height:13px;}.htb_row2{height:17px;}.htb_row3{height:5px;}</style><div style="width: 40px; height: 40px; border-radius:4px; float:left; margin-top:5px; margin-left:5px;"><img style="width:40px; height: 40px; border-radius:4px;" src="https://www.hackthebox.com/storage/avatars/d7df3a82c16747c0791bf6ac805fb112_thumb.png"></div><div class="htb_font" style="float:left; height:40px; padding-left: 5px; margin-top:5px;"><p class="htb_line"><span class="htb_nickname">BlackSudo</span> <span class="htb_rank">Pro Hacker</span><br></p><p class="htb_line"><span class="htb_ranking">Rank: 777</span> <img src="https://www.hackthebox.com/images/screenshot.png" style="width:10px;height:10px;"> <span class="htb_points">0</span> <img src="https://www.hackthebox.com/images/star.png" style="width:10px;height:10px;"> <span class="htb_respect">14</span><br></p><p class="htb_line"><a href="https://www.hackthebox.com" class="htb_link">hackthebox.com</a></p></div></div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </section>
+                          <!-- .section -->
+  
+                          <section class="section brd-btm padd-box">
+                              <div class="row">
+                                  <div class="col-sm-6 clear-mrg">
+                                      <h2 class="title-thin text-muted">Personal information</h2>
+  
+                                      <dl class="dl-horizontal clear-mrg">
+                                          <dt class="text-upper">Full Name</dt>
+                                          <dd>Omer Abdallah Bilal</dd>
+  
+                                          <dt class="text-upper">D.o.b.</dt>
+                                          <dd>26 July 1996</dd>
+  
+                                          <dt class="text-upper">address</dt>
+                                          <dd>36, Khartoum,
+                                              Sudan, SD
+                                          </dd>
+  
+                                          <dt class="text-upper">e-mail</dt>
+                                          <dd><a href="mailto:info@blacksudo.com">info@blacksudo.com</a></dd>
+  
+                                          <dt class="text-upper">phone</dt>
+                                          <dd>+249 96 740 88 53</dd>
+  
+                                          <dt class="text-upper">freelance</dt>
+                                          <dd>Available</dd>
+                                      </dl>
+                                  </div>
+                                  <!-- .col-sm-6 -->
+  
+                                  <div class="col-sm-6 clear-mrg">
+                                      <h2 class="title-thin text-muted">Languages</h2>
+  
+                                      <div class="progress-bullets crt-animate" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
+                                          <strong class="progress-title">Arabic</strong>
+                                          <span class="progress-bar">
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                          </span>
+                                          <span class="progress-text text-muted">native</span>
+                                      </div>
+  
+                                      <div class="progress-bullets crt-animate" role="progressbar" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10">
+                                          <strong class="progress-title">English</strong>
+                                          <span class="progress-bar">
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet fill"></span>
+                                              <span class="bullet"></span>
+                                              <span class="bullet"></span>
+                                          </span>
+                                          <span class="progress-text text-muted">medium</span>
+                                      </div>
+                                  </div>
+                                  <!-- .col-sm-6 -->
+                              </div>
+                              <!-- .row -->
+                          </section>
+                          <!-- .section -->
+  
+                          <section class="section brd-btm padd-box">
+                              <div class="row">
+                              <div class="col-sm-6 clear-mrg">
+                                      <h2 class="title-thin text-muted">Skills &amp; Knowledge</h2>
+  
+                                      <div class="progress-line crt-animate" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                          <strong class="progress-title">Web Security</strong>
+  
+                                          <div class="progress-bar" data-text="90%" data-value="0.9" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="rgba(0,0,0,0.07)" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#d14b4a" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 10;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">90%</div></div>
+                                      </div>
+  
+                                      <div class="progress-line crt-animate" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
+                                          <strong class="progress-title">Malware &amp; Reverse Engineering</strong>
+  
+                                          <div class="progress-bar" data-text="78%" data-value="0.78" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="rgba(0,0,0,0.07)" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#d14b4a" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 22;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">78%</div></div>
+                                      </div>
+  
+                                      <div class="progress-line crt-animate" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                          <strong class="progress-title">Digital Forensics</strong>
+  
+                                          <div class="progress-bar" data-text="70%" data-value="0.7" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="rgba(0,0,0,0.07)" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#d14b4a" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 30;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">70%</div></div>
+                                      </div>
+  
+                                      <div class="progress-line crt-animate" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100">
+                                          <strong class="progress-title">Networking &amp; Cryptography</strong>
+  
+                                          <div class="progress-bar" data-text="67%" data-value="0.67" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="rgba(0,0,0,0.07)" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#d14b4a" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 33;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">67%</div></div>
+                                      </div>
+  
+                                      <div class="progress-line crt-animate" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                          <strong class="progress-title">Mobile Application Security</strong>
+  
+                                          <div class="progress-bar" data-text="65%" data-value="0.65" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="rgba(0,0,0,0.07)" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#d14b4a" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 35;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">65%</div></div>
+                                      </div>
+                                  </div>
+                                  
+                                  <!-- .col-sm-6 -->
+  
+                                  <div class="col-sm-6 clear-mrg">
+                                      <h2 class="title-thin text-muted">Development skills</h2>
+  
+                                      <div class="row">
+                                          <div class="col-xs-4">
+                                              <div class="progress-chart crt-animate" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+                                                  <div class="progress-bar" data-text="88%" data-value="0.88" style="position: relative;"><svg viewBox="0 0 100 100" style="display: block; width: 100%;"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#d14b4a" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 35.8192;"></path></svg><div class="progress-text" style="top: 50%; left: 50%; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(-50%, -50%);">88%</div></div>
+                                                  <strong class="progress-title">Web Dev</strong>
+                                              </div>
+                                          </div>
+                                          <!-- .col-xs-4 -->
+  
+                                          <div class="col-xs-4">
+                                              <div class="progress-chart crt-animate" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
+                                                  <div class="progress-bar" data-text="82%" data-value="0.82" style="position: relative;"><svg viewBox="0 0 100 100" style="display: block; width: 100%;"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#d14b4a" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 53.7288;"></path></svg><div class="progress-text" style="top: 50%; left: 50%; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(-50%, -50%);">82%</div></div>
+                                                  <strong class="progress-title">Malware Dev</strong>
+                                              </div>
+                                          </div>
+                                          <!-- .col-xs-4 -->
+  
+                                          <div class="col-xs-4">
+                                              <div class="progress-chart crt-animate" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                                  <div class="progress-bar" data-text="70%" data-value="0.70" style="position: relative;"><svg viewBox="0 0 100 100" style="display: block; width: 100%;"><path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#d14b4a" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 89.548;"></path></svg><div class="progress-text" style="top: 50%; left: 50%; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(-50%, -50%);">70%</div></div>
+                                                  <strong class="progress-title">UI Design</strong>
+                                              </div>
+                                          </div>
+                                          <!-- .col-xs-4 -->
+                                      </div>
+                                      <!-- .row -->
+                                  </div>
+                                  <!-- .col-sm-6 -->
+                              </div>
+                              <!-- .row -->
+                          </section>
+                          <!-- .section -->
+  
+                          <section class="section brd-btm padd-box">
+                              <div class="row">
+                                  <div class="col-sm-6 clear-mrg">
+                                      <h2 class="title-thin text-muted">Tools &amp; Technologies</h2>
+  
+                                      <div class="progress-line crt-animate" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                          <strong class="progress-title">Php &amp; MySQL &amp; Laravel</strong>
+  
+                                          <div class="progress-bar" data-text="90%" data-value="0.90" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="rgba(0,0,0,0.07)" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#d14b4a" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 10;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">90%</div></div>
+                                      </div>
+  
+                                      <div class="progress-line crt-animate" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                          <strong class="progress-title">Linux &amp; Python</strong>
+  
+                                          <div class="progress-bar" data-text="85%" data-value="0.85" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="rgba(0,0,0,0.07)" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#d14b4a" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 15;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">85%</div></div>
+                                      </div>
+  
+                                      <div class="progress-line crt-animate" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
+                                          <strong class="progress-title">Arduino &amp; Raspberry Pi</strong>
+  
+                                          <div class="progress-bar" data-text="72%" data-value="0.72" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="rgba(0,0,0,0.07)" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#d14b4a" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 28;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">72%</div></div>
+                                      </div>
+  
+                                      <div class="progress-line crt-animate" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                          <strong class="progress-title">Cloud &amp; Blockchain</strong>
+  
+                                          <div class="progress-bar" data-text="65%" data-value="0.65" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="rgba(0,0,0,0.07)" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#d14b4a" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 35;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">65%</div></div>
+                                      </div>
+                                  </div>
+                                  <!-- .col-sm-6 -->
+  
+                                  <div class="col-sm-6 clear-mrg">
+                                      <h2 class="title-thin text-muted">Personal characteristics</h2>
+  
+                                      <ul class="styled-list clear-mrg">
+                                          <li>Be Creative</li>
+                                          <li>Be Flexible</li>
+                                          <li>Embrace Collaboration</li>
+                                          <li>Be a Leader</li>
+                                          <li>Commit to Learning</li>
+                                      </ul>
+                                  </div>
+                                  <!-- .col-sm-6 -->
+                              </div>
+                              <!-- .row -->
+                          </section>
+                          <!-- .section -->
+  
+                          <section class="section brd-btm padd-box">
+                              <div class="row">
+                                  <div class="col-sm-12 clear-mrg">
+                                      <h2 class="title-thin text-muted">interests</h2>
+  
+                                      <ul class="icon-list icon-list-col3 clearfix">
+                                          <li><span class="crt-icon crt-icon-heart"></span> OWASP Top 10</li>
+                                          <li><span class="crt-icon crt-icon-heart"></span> SANS 25</li>
+                                          <li><span class="crt-icon crt-icon-heart"></span> eLearnSecurity</li>
+                                          <li><span class="crt-icon crt-icon-heart"></span> OSCP</li>
+                                          <li><span class="crt-icon crt-icon-heart"></span> OSCE</li>
+                                          <li><span class="crt-icon crt-icon-heart"></span> ECRE</li>
+                                          <li><span class="crt-icon crt-icon-heart"></span> Bugcrowd</li>
+                                          <li><span class="crt-icon crt-icon-heart"></span> HackerOne</li>
+                                          <li><span class="crt-icon crt-icon-heart"></span> Ctftime.org</li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </section>
+                          <!-- .section -->
+  
+                          <section class="section padd-box">
+                              <h2 class="title-thin text-muted">Honors &amp; Awards &amp; Achievements</h2>
+  
+                              <div class="row">
+                                  <div class="col-sm-6 clear-mrg">
+                                      <div class="award-box">
+                                          <figure class="award-img">
+                                              <a href="https://nullcon.net/website/"><img src="assets/images/uploads/awards/award-01.png" style="border-radius: 20px;" alt=""></a>
+                                          </figure>
+  
+                                          <h3 class="award-title">Winning a free corporate conference pass NULLCON goa 2019</h3>
+  
+                                          <div class="award-text text-muted clear-mrg">
+                                               <p>I won it after attending <a href="https://twitter.com/HITBSecConf" id="blue"><strong>@HITBSecConf</strong></a> (Hack In The Box) 2018 in Dubai
+                                               <a href="https://twitter.com/nullDubai" id="blue"><strong>@nullDubai</strong></a> Team launch CTF inside HITB and
+                                                  I solving all nullDubai challenges and I won the free corporate conference pass for <a href="https://twitter.com/nullcon" id="blue"><strong>@Nullcon</strong></a>
+                                                  </p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- .col-sm-6 -->
+  
+                                  <div class="col-sm-6 clear-mrg">
+                                      <div class="award-box">
+                                          <figure class="award-img">
+                                          <a href="https://conference.hitb.org/hitbsecconf2018dxb/"><img src="assets/images/uploads/awards/award-02.png" style="border-radius: 20px;" alt=""></a>
+                                          </figure>
+                                          
+                                          <h3 class="award-title">Winning a ticket for HITBSecConf 2018 DUBAI</h3>
+                                          <div class="award-text text-muted clear-mrg">
+                                               <p>I won ticket to attend (HITB) Hack In The Box Security Conference Dubai 2018
+                                                  ticket price : $1,199.00
+                                                  I won it after win in HITB2018DXB Pre-Conf CTF Organized by <a href="https://twitter.com/Cyber_Talents" id="blue"><strong>@CyberTalents</strong></a> </p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- .col-sm-6 -->
+                              </div>
+                              <hr class="dotted">
+                              <!-- .row -->
+                              <div class="row">
+                                  <div class="col-sm-6 clear-mrg">
+                                      <div class="award-box">
+                                          <figure class="award-img">
+                                              <a href="https://cybertalents.com/competitions/final-arab-regional-cyber-security-ctf-2018"><img src="assets/images/uploads/awards/award-03.png" style="border-radius: 20px;" alt=""></a>
+                                          </figure>
+  
+                                          <h3 class="award-title">Winning 7th Place in Arab Regional CTF Championship 2018</h3>
+  
+                                          <div class="award-text text-muted clear-mrg">
+                                               <p>I won with my team Sud0root the seven place, in Final: Arab Regional Cyber Security CTF 2018 in Cairo, Egypt
+                                               Organized by <a href="https://twitter.com/Cyber_Talents" id="blue"><strong>@CyberTalents</strong></a>
+                                                 </p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- .col-sm-6 -->
+  
+                                  <div class="col-sm-6 clear-mrg">
+                                      <div class="award-box">
+                                          <figure class="award-img">
+                                          <a href="https://cybertalents.com/competitions/final-sudan-national-cyber-security-ctf-competition-2018"><img src="assets/images/uploads/awards/award-04.png" style="border-radius: 20px;" alt=""></a>
+                                          </figure>
+                                          
+                                          <h3 class="award-title">Winning 3rd Place in Sudan National CTF 2018</h3>
+                                          <div class="award-text text-muted clear-mrg">
+                                               <p>I won with my team Sud0root the third place, in Sudan National Cyber Security CTF Competition 2018 in Khartoum, Sudan
+                                                   Organized by <a href="https://twitter.com/Cyber_Talents" id="blue"><strong>@CyberTalents</strong></a> </p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- .col-sm-6 -->
+                              </div>
+                              <!-- .row -->
+                          </section>
+                          <!-- .section -->
+  
+                      </div>
+                      <!-- .crt-paper -->
+                  </div>
+                  <!-- .crt-paper-layers -->
+              </div>
+              <!-- .crt-container-sm -->
+          </div>
+          <!-- .crt-container -->
+          <!-- Site Footer--> 
+  
+              <div id="crt-sidebar">
+                  <button id="crt-sidebar-close" class="btn btn-icon btn-light btn-shade">
+                      <span class="crt-icon crt-icon-close"></span>
+                  </button>
+                  <div id="crt-sidebar-inner" class="mCustomScrollbar _mCS_1 mCS-autoHide mCS_no_scrollbar" style="position: relative; overflow: visible;"><div id="mCSB_1" class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside" style="max-height: none;" tabindex="0"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+                      <nav id="crt-main-nav-sm" class="visible-xs text-center">
+                          <ul class="clear-list">
+                              <li><a href="/">Home</a></li>
+                              <li><a href="experience">Experience</a></li>
+                              <li class="has-sub-menu"><a href="portfolio">Portfolio</a>
+                                  <ul class="sub-menu">
+                                      <li><a href="portfolio">Research's</a></li>
+                                      <li><a href="portfolio">Tool's</a></li>
+                                      <li><a href="portfolio">Project's</a></li>
+                                  </ul>
+                              </li>
+                              <li><a href="blog">Blog</a></li>
+                              <li><code><a href="contact">Donate</a></code></li>
+                          </ul>        
+                      </nav>
+                      <div class="crt-card text-center">
+                          <div class="crt-card-avatar">
+                              <img class="avatar avatar-195 mCS_img_loaded" src="assets/images/uploads/avatar/avatar-195x195.png" srcset="assets/images/uploads/avatar/avatar-390x390-2x.png 2x" width="195" height="195" alt="">
+                          </div>
+                          <div class="crt-card-info">
+                              <h2 class="text-upper">Omer A. Bilal</h2>
+  
+                              <p class="text-muted"><strong>Founder | <a href="https://sud0con.com" id="blue">Sud0con</a></strong></p>
+                              <ul class="crt-social clear-list">
+                                  <li><a href="https://www.facebook.com/BlackSudo"><span class="crt-icon crt-icon-facebook-official"></span></a></li>
+                                  <li><a href="https://twitter.com/Sud0root"><span class="crt-icon crt-icon-twitter"></span></a></li>
+                                  <li><a href="https://linkedin.com/in/blacksudo/"><span class="crt-icon crt-icon-linkedin-square"></span></a></li>
+                                  <li><a href="https://telegram.me/blacksud0"><span class="crt-icon crt-icon-telegram"></span></a></li>
+                                  <li><a href="https://github.com/BlackSud0"><span class="crt-icon crt-icon-github"></span></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <aside class="widget-area">
+                          <section class="widget widget_search">
+                              <form role="search" method="get" class="search-form" action="#">
+                                  <label>
+                                      <span class="screen-reader-text">Search for:</span>
+                                      <input type="search" class="search-field" placeholder="Search" value="" name="s">
+                                  </label>
+                                  <button type="submit" class="search-submit">
+                                      <span class="screen-reader-text">Search</span>
+                                      <span class="crt-icon crt-icon-search"></span>
+                                  </button>
+                              </form>
+                          </section>
+                          <a class="twitter-timeline" data-dnt="true" data-theme="dark" data-link-color="#b5e853" href="https://twitter.com/Sud0root?ref_src=twsrc%5Etfw">Tweets by Sud0root</a> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                          
+                      </aside>
+  
+                  </div></div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 50px; top: 0px;"><div class="mCSB_dragger_bar" style="line-height: 50px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div><!-- #crt-sidebar-inner -->
+              </div><!-- #crt-sidebar -->
+              <footer id="crt-footer" class="crt-container-lg">
+                  <div class="crt-container">
+                      <div class="crt-container-sm clear-mrg text-center">
+                          <p>All Rights Reserved @ BlackSudo 2023</p>
+                      </div>
+                  </div>
+                  <!-- .crt-container -->
+              </footer>
+              <!-- #crt-footer -->
+  
+              <svg id="crt-bg-shape-1" class="hidden-sm hidden-xs" height="519" width="758">
+                  <polygon class="pol" points="0,455,693,352,173,0,92,0,0,71"></polygon>
+              </svg>
+  
+              <svg id="crt-bg-shape-2" class="hidden-sm hidden-xs" height="536" width="633">
+                  <polygon points="0,0,633,0,633,536"></polygon>
+              </svg>
+          </div>
+          <!-- .crt-wrapper -->
+  
+          <!-- Scripts -->
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+          <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiwY_5J2Bkv2UgSeJa4NOKl6WUezSS9XA"></script>
+  
+          <script type="text/javascript" src="assets/js/plugins.min.js"></script>
+          <script type="text/javascript" src="assets/js/theme.min.js"></script>
+          <script type="text/javascript" src="assets/js/plugins.js"></script>
+      
+  <div id="monica-content-root" class="monica-widget" data-darkreader-mode="dynamic" data-darkreader-scheme="dark"><meta name="darkreader" content="47ea1832ba6b4fc68d96f31aa4ecf606"></div></body></html>
